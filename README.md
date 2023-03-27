@@ -31,7 +31,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Responsividade.
 - Framework Bootstrap.
 - Variáveis e Funções.
-- Condicionais
+- Condicionais.
+- Estrutura de repetição.
 
 
 
