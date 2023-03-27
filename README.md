@@ -1,4 +1,4 @@
-<h1 align="center"> FM Burger </h1>
+<h1 align="center"> Fly game </h1>
 
 <p align="center">
 Um game feito em JavaScript. <br/>
