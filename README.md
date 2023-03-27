@@ -1,7 +1,7 @@
 <h1 align="center"> Fly game </h1>
 
 <p align="center">
-Um game feito em JavaScript. <br/>
+Um game feito em JavaScript. Objetivo principal do jogo é matar os máximo de mosquitos que conseguir no tempo determinado.<br/>
 </p>
 
 
