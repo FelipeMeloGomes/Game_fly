@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  background-image: url(/imagens/mapa1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  cursor: url(/imagens/mata_mosquito.png) 30 30, auto;
+  box-sizing: border-box;
+}
+
+
+/* FORMATACOES PADRAO */
+
+.btn {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.btn-lg {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* MOSQUITOS TAMANHOS
+
+/* pequeno */
+.mosquito1 {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+
+/* medio */
+.mosquito2 {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+/* grande */
+.mosquito3 {
+  width: 4.375rem;
+  height: 4.375rem;
+}
+
+
+
+/* FORMATACOES PAINEL DE VIDA E CONTADOR DE MOSQUITOS */
+
+.ladoA {
+  transform: scaleX(1);
+}
+
+.ladoB {
+  transform: scaleX(-1);
+}
+
+.painel {
+  position: absolute;
+  width: 15%;
+  padding: 0.5vw;
+  left: 0;
+  bottom: 0;
+  border-top: solid 1px #fff;
+  background-color: #fff;
+  opacity: 0.5;
+  font-size: 1.5vw;
+  font-weight: 900;
+  border-radius: 5%;
+}
+
+#containerm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mosquitosPainel {
+  top: 0;
+  width: 20%;
+  padding: 0.5vw;
+  left: 0;
+  bottom: 0;
+  right: 2px;
+  border-top: solid 1px #fff;
+  background-color: #fff;
+  opacity: 0.5;
+  font-size: 1.5rem;
+  font-weight: 900;
+  border-radius: 5%;
+  flex-basis: 50%;
+  font-style: oblique;
+}
+
+.vidas {
+  font-size: 4vw;
+  flex-basis: 50%;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.cronometro {
+  font-size: 2vw;
+  font-weight: bold;
+  flex-basis: 50%;
+  text-align: center;
+  margin-bottom: 2vh;
+  font-style: oblique;
+}
+
+
+
+/* MEDIA QUERIES MOBILE */
+
+/* MOBILE 550 px */
+@media (max-width: 550) {
+
+  body {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagens/mapa1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .mosquitosPainel {
+    width: 15%;
+    padding: 0.5vw;
+    left: 0;
+    bottom: 0;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.5;
+    font-size: 1vw;
+    font-weight: 900;
+    border-radius: 5%;
+    font-style: oblique;
+  }
+
+
+}
+
+/* TABLE 768PX */
+@media (max-width: 768px) {
+  .mosquitosPainel {
+    width: 20%;
+    padding: 0.5vw;
+    position: static;
+    left: auto;
+    bottom: auto;
+    font-size: 1.5vw;
+    border-radius: 5%;
+    font-style: oblique;
+  }
+
+}
+
+
+/* TABLET 900PX */
+@media (max-width: 900px) {
+  .mosquitosPainel {
+    font-style: oblique;
+  }
+
+  .painel {
+    max-width: 20%;
+    padding: 1vw;
+    flex-wrap: nowrap;
+  }
+
+  .vidas,
+  .cronometro {
+    flex-basis: auto;
+    margin-bottom: 0;
+  }
+
+}
+
+
+/* Desktop 1000px */
+@media (max-width: 1200px) {
+
+  .painel {
+    max-width: 15%;
+  }
+
+  .mosquitosPainel {
+    border-radius: 5%;
+    max-width: 20%;
+    padding: 1vw;
+    flex-wrap: nowrap;
+    font-style: oblique;
+  }
+
+}
