@@ -33,6 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Variáveis e Funções.
 - Condicionais.
 - Estrutura de repetição.
+- Utilização da tag  audio do HTML5.
 
 
 
