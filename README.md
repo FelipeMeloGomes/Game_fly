@@ -41,9 +41,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Melhorias implementadas:
 
-- Adição de novas carnes e molhos.
-- Implementação de um verificação nos inputs.
-- Melhorias na responsividade.
+- Adição de mudanças de cenários aleatórios.
+- Melhoria na lógica do jogo.
+- Novas dificuldades.
 
 
 ---
